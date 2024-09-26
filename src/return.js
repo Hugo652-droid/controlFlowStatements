@@ -1,4 +1,4 @@
-
+"use strict";
 
 function calcul() {
     const numbers = [];
@@ -9,7 +9,7 @@ function calcul() {
 
         if (i === 4) return"Vous étes à la moitier de la liste";
 
-        if (numbers[i] === numbers[i-1]) return "Il y a deux fois le même chiffre a la suite"
+        if (numbers[i] === numbers[i-1]) return "Il y a deux fois le même chiffre a la suite";
 
         if (somme === 50) return "Vous avez 50 dans la soustraction";
 
@@ -24,5 +24,3 @@ function calcul() {
 }
 
 console.log(calcul());
-
-
